@@ -4,9 +4,9 @@
 // mod strings;
 // mod tuples;
 // mod arrays;
-mod vectors;
+// mod vectors;
+mod conditionals;
 
-use std::mem;
 
 fn main() {
     // print::run();
@@ -15,7 +15,6 @@ fn main() {
     // strings::run();
     // tuples::run();
     // arrays::run();
-    vectors::run();
-    let str1 = "赵东";
-    println!("{}", mem::size_of_val(str1));
+    // vectors::run();
+    conditionals::run(18,false,true);
 }
